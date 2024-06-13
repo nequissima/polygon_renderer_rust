@@ -8,7 +8,6 @@ const XRES : usize = 200;
 const YRES : usize = 200;
 
 use std::env;
-use color::Color;
 use fileio::*;
 use renderer::*;
 
