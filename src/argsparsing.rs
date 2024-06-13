@@ -1,9 +1,9 @@
 pub struct renderArgs {
-  xResolution : u32,
-  yResolution : u32,
+  x_resolution : u32,
+  y_resolution : u32,
 }
 
 impl renderArgs {
-  pub fn get_xres(&self) -> u32 {return self.xResolution;}
-  pub fn get_yres(&self) -> u32 {return self.yResolution;}
+  pub fn get_xres(&self) -> u32 {return self.x_resolution;}
+  pub fn get_yres(&self) -> u32 {return self.y_resolution;}
 }
