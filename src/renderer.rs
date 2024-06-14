@@ -1,6 +1,7 @@
 use crate::argsparsing::*;
 use crate::color::*;
 use std::vec;
+use crate::vector::triangle_2d;
 
 pub fn render_scene(args : &mut renderArgs) -> () {
 
@@ -21,5 +22,9 @@ pub fn white_testgrid() -> Vec<Vec<Color>> {
       });
 
     return testgrid;
+
+}
+
+pub fn draw_triangle(grid : &Vec<Vec<Color>>, triangle : &triangle_2d<i64>) -> () {
 
 }
