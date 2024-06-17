@@ -3,7 +3,7 @@ use crate::color::*;
 use std::vec;
 use crate::vector::triangle_2d;
 
-pub fn render_scene(args : &mut renderArgs) -> () {
+pub fn render_scene(args : &mut render_args) -> () {
 
   // the grid of pixels to be written out to the image file
   // TODO: implement custom resolution in args

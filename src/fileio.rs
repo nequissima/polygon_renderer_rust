@@ -14,8 +14,8 @@ pub fn write_pixel_grid_to_file(grid: &Vec<Vec<Color>>, grid_dimension : (usize,
   for x in 0..grid.len() {
     for y in 0..grid.len() {
       let str = format!("{} {} {} ", grid[x][y].get_r(),
-                                            grid[x][y].get_g(),
-                                            grid[x][y].get_b());
+                                             grid[x][y].get_g(),
+                                             grid[x][y].get_b());
       output.push_str(&str);
     }
     output.push('\n');
